@@ -4,6 +4,7 @@ namespace App\Repository;
 
 use App\Model\Starship;
 use Psr\Log\LoggerInterface;
+use App\Model\StarshipStatusEnum;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class StarshipRepository extends AbstractController
@@ -23,21 +24,21 @@ class StarshipRepository extends AbstractController
                 'USS LeafyCruiser (NCC-001)',
                 'Garden',
                 'Jean-Luc Pickles',
-                'under construction',
+                StarshipStatusEnum::IN_PROGRESS,
             ),
             new Starship(
                 2,
                 'USS LeafyCruiser (NCC-001)',
                 'Garden',
                 'Jean-Luc Pickles',
-                'under construction',
+                StarshipStatusEnum::COMPLETED,
             ),
             new Starship(
                 3,
                 'USS LeafyCruiser (NCC-001)',
                 'Garden',
                 'Jean-Luc Pickles',
-                'under construction',
+                StarshipStatusEnum::WAITING,
             ),
         ];
     }
