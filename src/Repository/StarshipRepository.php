@@ -28,16 +28,16 @@ class StarshipRepository extends AbstractController
             ),
             new Starship(
                 2,
-                'USS LeafyCruiser (NCC-001)',
-                'Garden',
-                'Jean-Luc Pickles',
+                'USS Espresso (NCC-1234-C)',
+                'Latte',
+                'James T. Quick!',
                 StarshipStatusEnum::COMPLETED,
             ),
             new Starship(
                 3,
-                'USS LeafyCruiser (NCC-001)',
-                'Garden',
-                'Jean-Luc Pickles',
+                'USS Wanderlust (NCC-2024-W)',
+                'Delta Tourist',
+                'Kathryn Journeyway',
                 StarshipStatusEnum::WAITING,
             ),
         ];

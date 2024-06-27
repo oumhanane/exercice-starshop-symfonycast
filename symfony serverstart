@@ -1,0 +1,23 @@
+[33mcommit b5587fa0f511f94d3392d067c3f756feb7df9205[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: oumhanane <79924229+oumhanane@users.noreply.github.com>
+Date:   Tue Jun 25 23:28:48 2024 +0200
+
+    modifications templates
+
+[33mcommit 59fcf6b53a0d8c9438c25560e0078198ea4afed8[m
+Author: oumhanane <79924229+oumhanane@users.noreply.github.com>
+Date:   Mon Jun 24 10:28:02 2024 +0200
+
+    set up configuration
+
+[33mcommit 068eb5e863c821cbb017a6d03c6d8745cda46f22[m
+Author: oumhanane <79924229+oumhanane@users.noreply.github.com>
+Date:   Sat Jun 22 20:24:01 2024 +0200
+
+    maj config ajout controleur et template
+
+[33mcommit 86cdeb67e631e746580af57bdf7691190eb3012c[m
+Author: oumhanane <79924229+oumhanane@users.noreply.github.com>
+Date:   Thu Jun 20 23:18:05 2024 +0200
+
+    Add initial set of files
